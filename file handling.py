@@ -1,0 +1,11 @@
+#  CODED BY SAM@SAMEER
+#  EMAIL:SAMS44802@GAMIL.COM
+#  DATE:22/09/2019
+#  PROGRAM:TO SHOW WHETHER THE FILE IS CLOSED OR NOT
+file = open("read.txt", "wb")
+""" wb MODE IS USED FOR WRITING
+    BUT IN BINARY FORMAT
+ """
+print("FILE IS OPEN", file.name)
+print("FILE IS CLOSED", file.closed)
+print("FILE IS OPENED IN wb","MODE")

@@ -1,0 +1,9 @@
+# CODED BY SAM@SAMEER
+# EMAIL: SAMS44802@GMAIL.COM
+# DATE: 17/08/2019
+# PROGRAM: MAKING SENSITIVE CASE INTO INSENSITIVE AND THEN FIND THE OCCURRENCE OF A CHARACTER
+name, character_name = input('ENTER THE NAMES BUT COMMA SEPARATED ').split(",")
+print(len(name))
+name.lower()  # SENSITIVE INTO INSENSITIVE
+character_name.lower()
+print(name.count(character_name))

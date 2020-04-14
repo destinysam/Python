@@ -1,0 +1,9 @@
+# CODED BY SAM@SAMEER
+# EMAIL: SAMS44802@GMAIL.COM
+# DATE: 20/08/2019
+# PROGRAM: USING FOR LOOP TO SUM THE N NATURAL NUMBERS
+number = int(input("ENTER THE NUMBER  "))
+add = 0
+for i in range(number+1):  # TAKE RANGE SIZE+1 BECAUSE I IS INITALIZED WITH 0
+    add = add + i
+print("SUM =" + str(add))
